@@ -3,8 +3,8 @@
 textarea:focus, input:focus,select:focus{
     outline: none;
 }
-.cus1{position: relative;}
-.cus1 img{width: 100%;}
-.cus1 .cs1{position: absolute;bottom: 0;transform: translateX(-50%);left: 50.5%;top: 20%}
-.cus1 .cs2{position: absolute;bottom: 0;transform: translateX(-50%);left: 50.5%;top: 30%}
+.cus1{position: relative;width: 100%;}
+.cus1 img{position: relative;margin: auto;width: 100%;}
+.cus1 .cs1{position: absolute;bottom: 0;transform: translateX(-50%);left: 50.5%;top: 30%;font-size: 17px;}
+.cus1 .cs2{position: absolute;bottom: 0;transform: translateX(-50%);left: 50.5%;top: 45%;font-size: 17px;}
 .cus1 span{color: #fcfcfc}
