@@ -3,8 +3,113 @@
 textarea:focus, input:focus,select:focus{
     outline: none;
 }
-.cus1{position: relative;width: 100%;}
-.cus1 img{position: relative;margin: auto;width: 100%;}
-.cus1 .cs1{position: absolute;bottom: 0;transform: translateX(-50%);left: 50.5%;top: 30%;font-size: 17px;}
-.cus1 .cs2{position: absolute;bottom: 0;transform: translateX(-50%);left: 50.5%;top: 45%;font-size: 17px;}
-.cus1 span{color: #fcfcfc}
+.cus1{position: relative;width: 100%;background-color: red;overflow: hidden}
+.cus1 img{position: relative;margin: auto;width: 100%;vertical-align:middle}
+
+
+
+.cus1 .cs1{position: absolute;bottom: 0;transform: translateX(-50%);left: 50.5%;top: 20%;font-size: 16px;}
+.cus1 .cs2{position: absolute;bottom: 0;transform: translateX(-50%);left: 50.5%;top: 35%;font-size: 16px;}
+.cus1 .cs3{position: absolute;bottom: 0;transform: translateX(-50%);left: 25.5%;bottom: 5%;font-size: 18px;width: 100px;text-align: center;}
+.cus1 .cs4{position: absolute;bottom: 0;transform: translateX(-50%);left: 75.5%;bottom: 5%;font-size: 18px;width: 150px;text-align: center;}
+
+.cus1 .spanwhite{color: #fcfcfc}
+
+@media screen and (min-width:350px){
+    
+    .cus1 .cs1{left: 50.5%;top: 35%;font-size: 16px;}
+.cus1 .cs2{left: 50.5%;top: 50%;font-size: 16px;}
+.cus1 .cs3{left: 25.5%;bottom: 5%;font-size: 18px;width: 150px;text-align: center;}
+.cus1 .cs4{left: 75.5%;bottom: 5%;font-size: 18px;width: 200px;text-align: center;}
+    
+}
+@media screen and (min-width:400px){
+    
+    .cus1 .cs1{left: 50.5%;top: 45%;font-size: 18px;}
+.cus1 .cs2{left: 50.5%;top: 60%;font-size: 18px;}
+    .cus1 .cs3{font-size: 21px;width: 200px;}
+        .cus1 .cs4{font-size: 21px;}
+}
+
+@media screen and (min-width:450px){
+    
+    .cus1 .cs1{left: 50.5%;top: 45%;font-size: 20px;}
+.cus1 .cs2{left: 50.5%;top: 60%;font-size:20px;}
+    .cus1 .cs3{font-size: 23px;width: 200px;}
+        .cus1 .cs4{font-size: 23px;}
+}
+
+@media screen and (min-width:550px){
+    
+    .cus1 .cs1{left: 50.5%;top: 45%;font-size: 22px;}
+.cus1 .cs2{left: 50.5%;top: 60%;font-size:22px;}
+    .cus1 .cs3{font-size: 25px;width: 200px;}
+        .cus1 .cs4{font-size: 25px;width: 250px;}
+}
+
+@media screen and (min-width:650px){
+    
+    .cus1 .cs1{left: 50.5%;top: 45%;font-size: 25px;}
+.cus1 .cs2{left: 50.5%;top: 60%;font-size:25px;}
+    .cus1 .cs3{font-size: 30px;width: 300px;}
+        .cus1 .cs4{font-size: 30px;width: 300px;}
+}
+
+
+@media screen and (min-width:900px){
+    
+    .cus1 .cs1{left: 50.5%;top: 45%;font-size: 40px;}
+.cus1 .cs2{left: 50.5%;top: 60%;font-size:40px;}
+    .cus1 .cs3{font-size: 45px;width: 400px;}
+        .cus1 .cs4{font-size: 45px;width: 400px;}
+}
+@media screen and (min-width:1200px){
+    
+    .cus1 .cs1{left: 50.5%;top: 50%;font-size: 50px;}
+.cus1 .cs2{left: 50.5%;top: 65%;font-size:50px;}
+    .cus1 .cs3{font-size: 60px;width: 500px;}
+        .cus1 .cs4{font-size: 60px;width: 600px;}
+}
+
+
+/* s:sec2 */
+.sec2{padding: 10px 5px;}
+.sec2 h1{font-size: 20px;text-align: center;padding: 10px 0px;}
+.sec2 h1 span{display: inline-block;border-bottom: 2px solid #19647E;}
+.sec2 p{font-size: 16px;text-align: justify;}
+.feat{display: flex;flex-wrap: wrap;justify-content: space-between;align-items: flex-start;}
+.feat p{width: 130px;}
+.feat img{width: 20px;vertical-align: middle;position: relative;bottom: px;}
+.feat div{display: flex;justify-content: flex-start;align-items: flex-start;width: 50%;border: px solid red;margin: 5px 0px;}
+
+
+.proud img{width: 70px;}
+.p1{width:200px;margin: auto;display: flex;flex-direction: column;justify-content: center;align-items: center;border: 1px solid #b5b5b5;margin: 10px auto}
+.p1 p{text-align: center;}
+
+
+@media screen and (min-width:420px){
+    .p1{width: 130px;height: ;justify-content: flex-start;}
+    .prodbox{display: flex;justify-content: space-between;align-items: lex-start;;}
+.proud img{width: 70px;margin-bottom: 10px;}
+}
+
+
+@media screen and (min-width:760px){
+    .sec2{display: flex;justify-content: space-between;}
+    .what{width: 40%;}
+    .proud{width: 55%;}
+    .p1{margin: 0px 3px}
+    
+}
+@media screen and (min-width:1000px){
+   
+        .what{width: 40%;margin-right: 50px;}
+    .proud{width: 40%;}
+    .prodbox{justify-content: center;;}
+    .p1{margin:0px 10px;width: 170px;}
+    .sec2{padding: 40px 0px;display: flex;justify-content: center;}
+    .sec2 h1{font-size: 28px;margin-bottom: 20px;}
+}
+
+/* e:sec2 */
