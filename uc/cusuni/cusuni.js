@@ -4,15 +4,29 @@
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
         	
-    var slidehd= document.getElementsByClassName('slidehd');
-            var slmgj= document.getElementsByClassName('slmgj');
+    var jhd1= document.getElementsByClassName('jhd1');
+            var cs3= document.getElementsByClassName('cs3');
+             var cs4= document.getElementsByClassName('cs4');
+    var spanwhite= document.getElementsByClassName('spanwhite');
     
         
 function portfullf(){
-   slidehd[0].style.opacity="1";
-    slidehd[0].style.left="0px";
-    slmgj[0].className="slmgj slani";
+cs3[0].style.left="25%";
+    cs4[0].style.left="75%";
+    spanwhite[0].style.left="0px";
+    spanwhite[1].style.left="0px";
     
+        jhd1[0].style.left="0px";
+        jhd1[1].style.left="0px";
+    
+    
+    cs3[0].style.opacity="1";
+    cs4[0].style.opacity="1";
+    spanwhite[0].style.opacity="1";
+    spanwhite[1].style.opacity="1";
+     
+        jhd1[0].style.opacity="1";
+        jhd1[1].style.opacity="1";
     
 }
 
@@ -87,23 +101,82 @@ bswit[2].addEventListener('click',function() {bswitch(2);}, false);
 
 
 
+var jptar=document.getElementsByClassName('jptar');
+
+var testihd=document.getElementsByClassName('testihd');
+var offcon=document.getElementsByClassName('off_con');
+
+
 
 
 window.onscroll = function() {scrollani()};
 
 function scrollani() {
     /* home*/
- if(w>1000){
+ if(w>760){
     if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
- sidehdj[0].style.opacity="1";
- sidehdj[0].style.top="130px";
+ jptar[0].style.top="0px";
+        jptar[1].style.top="0px";
+        jptar[2].style.top="0px";
         
-    
-    }
- 
- 
+        jptar[0].style.opacity="1";
+        jptar[1].style.opacity="1";
+        jptar[2].style.opacity="1";
  }
 
+ }
+    
+    
+     if(w<480){
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+ jptar[0].style.top="0px";
+        jptar[1].style.top="0px";
+        jptar[2].style.top="0px";
+        
+        jptar[0].style.opacity="1";
+        jptar[1].style.opacity="1";
+        jptar[2].style.opacity="1";
+ }
+
+ }
+
+    
+    
+    
+     if(w>880){
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+ testihd[0].style.left="0px";
+    
+        
+        testihd[0].style.opacity="1";
+       
+ }
+
+ }
+    
+         if(w>1000){
+    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+ offcon[0].style.top="0px";
+         offcon[0].style.opacity="1";
+        
+         offcon[1].style.top="0px";
+         offcon[1].style.opacity="1";
+        
+         offcon[2].style.top="0px";
+         offcon[2].style.opacity="1";
+        
+           offcon[3].style.top="0px";
+         offcon[3].style.opacity="1";
+       
+ }
+
+ }
+
+    
+    
+    
+    
+    
 
 
 
