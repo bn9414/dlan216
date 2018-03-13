@@ -165,14 +165,14 @@ background-color: #fcfcfc;
     to{left: -130%; }
 }
 
-.dmn1,.dmn2,.dmn3,.dmn4,.dmn5,.dmn6{display: none;}
+.dmn1,.dmn2,.dmn3,.dmn4{display: none;}
 .dmn4 p{display: none}
 
 .b{transform: scale(1.05);}
 
 
 @media screen and (min-width:930px){
-    .dmn1,.dmn2,.dmn3,.dmn4,.dmn5,.dmn6{display: flex;}
+    .dmn1,.dmn2,.dmn3,.dmn4{display: flex;}
     .dmn4 p{display: block}
        #nav_bar{height: 65px;}
    /* start:p_menu */
