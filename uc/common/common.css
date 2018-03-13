@@ -137,18 +137,16 @@ background-color: #fcfcfc;
 
 
 .mn img{width: 50px;}
-.mn{font-size: 24px;color: #2d2d2d; font-family: sans-serif;display: block;font-weight: 100; opacity: 1;position: relative;transition: color 0.3s;font-family: 'Ubuntu', sans-serif;border: 1px solid #b5b5b5;width: 80%;margin:13px auto;padding: 5px;}
-.ex_mn{border-width: 0px;}
+.mn{font-size: 24px;color: #2d2d2d; font-family: sans-serif;display: block;font-weight: 100; opacity: 1;position: relative;transition: color 0.3s;border: 1px solid #b5b5b5;width: 80%;margin:13px auto;padding: 5px;}
+
 .mn div{display: flex;flex-direction: column;justify-content: center;align-items: center;}
-.ex_mn div{flex-direction: row;}
-.ex_mn div img{width: 30px;}
-.ex_mn div p{font-size: 16px}
 
 
 
 
 
-.menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{color: #25C485;}
+
+
 
 
 .a{transform: scale(1.05);}
