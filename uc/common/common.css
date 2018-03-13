@@ -140,9 +140,7 @@ background-color: #fcfcfc;
 .mn{font-size: 24px;color: #2d2d2d; font-family: sans-serif;display: block;font-weight: 100; opacity: 1;position: relative;transition: color 0.3s;font-family: 'Ubuntu', sans-serif;border: 1px solid #b5b5b5;width: 80%;margin:13px auto;padding: 5px;}
 .ex_mn{border: 0px;}
 .mn div{display: flex;flex-direction: column;justify-content: center;align-items: center;}
-.ex_mn div{flex-direction: row;}
-.ex_mn div img{width: 30px;}
-.ex_mn div p{font-size: 16px}
+
 
 
 
@@ -165,7 +163,7 @@ background-color: #fcfcfc;
     to{left: -130%; }
 }
 
-.dmn1,.dmn2,.dmn3,.dmn4,.dmn5,.dmn6{display: none;}
+.dmn1,.dmn2,.dmn3,.dmn4{display: none;}
 
 .b{transform: scale(1.05);}
 
