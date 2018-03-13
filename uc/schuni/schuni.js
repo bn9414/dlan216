@@ -53,10 +53,11 @@ function bswitch(n){
     bsin[0].style.backgroundColor="#fcfcfc";
      bsin[1].style.backgroundColor="#fcfcfc";
      bsin[2].style.backgroundColor="#fcfcfc";
+         bsin[3].style.backgroundColor="#fcfcfc";
     
      
    
-    btall[0].style.display="none";btall[1].style.display="none";btall[2].style.display="none";
+    btall[0].style.display="none";btall[1].style.display="none";btall[2].style.display="none";btall[3].style.display="none";
     
      btall[n].style.display="flex";
      
@@ -65,14 +66,17 @@ bsin[n].style.backgroundColor="#454545";
     
 
 }
-if(w<880){
+
 bswitch(0);
-}
+
 bswit[0].addEventListener('click',function() {bswitch(0);}, false);
 
 bswit[1].addEventListener('click',function() {bswitch(1);}, false);
 
 bswit[2].addEventListener('click',function() {bswitch(2);}, false);
+
+
+bswit[3].addEventListener('click',function() {bswitch(3);}, false);
 
 
 
