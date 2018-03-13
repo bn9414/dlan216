@@ -137,7 +137,7 @@ background-color: #fcfcfc;
 
 
 .mn img{width: 50px;}
-.mn{font-size: 24px;color: #2d2d2d; font-family: sans-serif;display: block;font-weight: 100; opacity: 1;position: relative;transition: color 0.3s;border: 1px solid #b5b5b5;width: 80%;margin:13px auto;padding: 5px;}
+.mn{font-size: 24px;color: #2d2d2d; font-family: sans-serif;font-weight: 100; opacity: 1;position: relative;transition: color 0.3s;border: 1px solid #b5b5b5;width: 80%;margin:13px auto;padding: 5px;}
 
 .mn{display: flex;flex-direction: column;justify-content: center;align-items: center;}
 
