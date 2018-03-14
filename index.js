@@ -73,9 +73,47 @@ function scrollani() {
      }
 
 
+}
 
 
 
 
+
+
+
+var bswit= document.getElementsByClassName('bswit');
+
+var bsin= document.getElementsByClassName('bsin');
+
+var hdtxt= document.getElementsByClassName('hdtxt');
+
+var hdimg= document.getElementsByClassName('hdimg');
+
+function bswitch(n){
+    
+    bsin[0].style.backgroundColor="#fcfcfc";
+     bsin[1].style.backgroundColor="#fcfcfc";
+    
+    hdtxt[0].style.display="none";
+    hdtxt[1].style.display="none";
+    
+    hdimg[0].style.display="none";
+    hdimg[1].style.display="none";
+    
+    
+        hdimg[n].style.display="block";
+        hdtxt[n].style.display="block";
+    
+bsin[n].style.backgroundColor="#454545";
+    
+    
 
 }
+
+bswitch(0);
+
+bswit[0].addEventListener('click',function() {bswitch(0);}, false);
+
+bswit[1].addEventListener('click',function() {bswitch(1);}, false);
+
+
