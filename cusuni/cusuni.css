@@ -9,12 +9,12 @@ textarea:focus, input:focus,select:focus{
 
 .cs1{position: absolute;bottom: 0;transform: translateX(-50%);left: 50.5%;top: 20%;font-size: 16px;}
 .cs2{position: absolute;bottom: 0;transform: translateX(-50%);left: 50.5%;top: 35%;font-size: 16px;}
-  .cs3{position: absolute;bottom: 0;transform: translateX(-50%);left: 75.5%;bottom: 5%;font-size: 18px;width: 120px;text-align: center;left: 30.5%;
+  .cs3{position: absolute;bottom: 0;transform: translateX(-50%);bottom: 5%;font-size: 18px;width: 120px;text-align: center;left: 60.5%;
 opacity: 0; transition:opacity 1s, left 1s;color: #fcfcfc;}
-  .cs4{position: absolute;bottom: 0;transform: translateX(-50%);left: 25.5%;bottom: 5%;font-size: 18px;width: 150px;text-align: center;}
+  .cs4{position: absolute;bottom: 0;transform: translateX(-50%);bottom: 5%;font-size: 18px;width: 150px;text-align: center;}
 
 .spanwhite{color: #fcfcfc;position: relative;left: -50px;opacity: 0;transition: opacity 1s, left 1s;}
-.cs4{color: #454545;opacity: 0;left: 70%;transition:opacity 1s, left 1s; }
+.cs4{color: #454545;opacity: 0;left: 40%;transition:opacity 1s, left 1s; }
 .jhd1{position: relative;left: 50px;opacity: 0;transition: opacity 1s, left 1s;}
 @media screen and (min-width:350px){
     
@@ -58,6 +58,8 @@ cs1{left: 50.5%;top: 45%;font-size: 20px;}
 
 
 @media screen and (min-width:900px){
+     .cs3{left:70%}
+    .cs4{left:30%}
     
     .cs1{left: 50.5%;top: 45%;font-size: 40px;}
 .cs2{left: 50.5%;top: 60%;font-size:40px;}
@@ -70,6 +72,7 @@ cs1{left: 50.5%;top: 45%;font-size: 20px;}
 .cs2{left: 50.5%;top: 65%;font-size:50px;}
       .cs3{font-size: 60px;width: 500px;}
           .cs4{font-size: 60px;width: 600px;}
+
 }
 
 .span
@@ -79,10 +82,7 @@ cs1{left: 50.5%;top: 45%;font-size: 20px;}
 .sec2 h1{font-size: 20px;text-align: center;padding: 10px 0px;}
 .sec2 h1 span{display: inline-block;border-bottom: 2px solid #19647E;}
 .sec2 p{font-size: 16px;text-align: justify;padding:  0px 7px;;}
-.feat{display: flex;flex-wrap: wrap;justify-content: space-between;align-items: flex-start;padding: 0px 7px;}
-.feat p{width: 130px;}
-.feat img{width: 20px;vertical-align: middle;position: relative;bottom: px;}
-.feat div{display: flex;justify-content: flex-start;align-items: flex-start;width: 50%;border: px solid red;margin: 5px 0px;}
+
 
 
 .proud img{width: 70px;}
@@ -191,6 +191,15 @@ cs1{left: 50.5%;top: 45%;font-size: 20px;}
 
 
 /*s: What we offer*/
+
+
+.feat{display: flex;flex-wrap: wrap;justify-content: space-between;align-items: flex-start;padding: 0px 7px;}
+.feat p{width: 130px;}
+.feat img{width: 20px;vertical-align: middle;position: relative;bottom: px;}
+.feat div{display: flex;justify-content: flex-start;align-items: flex-start;width: 50%;border: px solid red;margin: 5px 0px;}
+
+
+
 .offer{padding: 10px 0px;}
 .offhd{font-size: 23px;text-align: center;margin-bottom: 30px;border: 1px olid;}
 

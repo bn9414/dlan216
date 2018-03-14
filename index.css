@@ -307,4 +307,13 @@ textarea::placeholder{color: #717171; font-size: 16px; }
     .off_con{opacity: 1;position: relative;top: 00px;transition: opacity 1s,top 1s;}
 }
 
+
+
+.feat{display: flex;flex-wrap: wrap;justify-content: space-between;align-items: flex-start;padding: 0px 7px;}
+.feat p{width: 130px;}
+.feat img{width: 20px;vertical-align: middle;position: relative;bottom: px;}
+.feat div{display: flex;justify-content: flex-start;align-items: flex-start;width: 50%;border: px solid red;margin: 5px 0px;}
+
+
+
 /*e: what we offer*/
