@@ -125,7 +125,7 @@ textarea:focus, input:focus,select:focus{
 
 
 /*s: What we offer*/
-.offer{padding: 20px 0px;}
+.offer{padding: 20px 0px;background-color: #F7F7F7;}
 .offhd{font-size: 23px;text-align: center;margin-bottom: 30px;border: 1px olid;}
 .offhd span{display: inline-block;border-bottom: 2px solid #19647E;}
 

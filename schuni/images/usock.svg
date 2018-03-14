@@ -1,14 +1,20 @@
-<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-
- <g>
-  <title>background</title>
-  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
- </g>
- <g>
-  <title fill="#19647e">Layer 1</title>
-  <path fill="#19647e" id="svg_2" d="m36.127,30.354l-7.555,-7.555l0,-11.511l-11.155,0l0,13.756c0,1.785 0.841,3.37 2.145,4.391l8.743,8.741c2.159,2.16 5.662,2.16 7.822,0s2.16,-5.662 0,-7.822z"/>
-  <rect fill="#19647e" id="svg_3" y="8.205" x="17.417" width="11.156" height="2.083"/>
-  <rect fill="#19647e" id="svg_4" y="8.228" x="10.254" width="5.578" height="2.083"/>
-  <path fill="#19647e" id="svg_5" d="m17.581,29.11c-0.091,-0.087 -0.177,-0.179 -0.263,-0.271l-0.097,-0.101l0.007,0.002c-0.865,-0.98 -1.396,-2.262 -1.396,-3.674l0,-13.755l-5.578,0l0,13.756c0,1.785 0.841,3.37 2.145,4.391l8.743,8.741c1.694,1.695 4.204,2.025 6.253,1.058l-9.814,-10.147z"/>
- </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<g>
+	<title>background</title>
+	<rect id="canvas_background" x="-1" y="-1" fill="none" width="582" height="402"/>
+</g>
+<g>
+	<title  fill="#19647e">Layer 1</title>
+	<path id="svg_2" fill="#19647E" d="M36.127,30.354l-7.555-7.555V11.288H17.417v13.756c0,1.785,0.841,3.37,2.145,4.392l8.743,8.74
+		c2.159,2.16,5.662,2.16,7.822,0S38.287,32.514,36.127,30.354z"/>
+	<rect id="svg_3" x="17.417" y="8.205" fill="#EEC643" width="11.156" height="2.083"/>
+	<rect id="svg_4" x="10.254" y="8.228" fill="#EEC643" width="5.578" height="2.083"/>
+	<path id="svg_5" fill="#19647E" d="M17.581,29.109c-0.091-0.086-0.177-0.178-0.263-0.271l-0.097-0.101l0.007,0.002
+		c-0.865-0.98-1.396-2.262-1.396-3.674V11.311h-5.578v13.755c0,1.785,0.841,3.371,2.145,4.392l8.743,8.741
+		c1.694,1.695,4.204,2.025,6.252,1.058L17.581,29.109z"/>
+</g>
 </svg>
