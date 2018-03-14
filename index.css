@@ -127,7 +127,7 @@ textarea:focus, input:focus,select:focus{
 
 /*s: consult*/
 
-.cons{width: 100%;height: auto;background-color:#F9F9F9;}
+.cons{width: 100%;height: auto;background-color:#fcfcfc;}
 .cont1{width: 100%;height: auto;padding: 5px;}
 .cont1 h1{text-align: center;color: #454545;margin-top: 20px;}
 .cont1 h2{color: #F39237;font-size: 22px; text-align: center;padding-bottom: 10px}
@@ -269,7 +269,7 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 
 /*s: What we offer*/
-.offer{padding: 10px 0px;}
+.offer{padding: 30px 0px;padding-bottom: 0px;background-color: #fcfcfc}
 .offhd{font-size: 23px;text-align: center;margin-bottom: 30px;border: 1px olid;}
 
 .offhd span{display: inline-block;border-bottom: 2px solid #19647E;}
