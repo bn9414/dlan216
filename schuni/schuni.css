@@ -163,11 +163,13 @@ textarea:focus, input:focus,select:focus{
 /*e: what we offer*/
 
 /*s: clients*/
+.btall div{border: 1px olid}
 .bblock{background-color: #ffffff;}
-.btall{width: 100%; height: auto; opacity: 1; border: 1px olid black;animation-name: tsani;animation-duration: 1s; animation-fill-mode: forwards;display: flex;justify-content: space-around;align-items: center;flex-wrap: wrap;margin: 00px 0px;padding-bottom: 10px;position: relative;}
+.btall{width: 100%; height: auto; opacity: 1; border: 1px olid black;animation-name: tsani;animation-duration: 1s; animation-fill-mode: forwards;display: flex;justify-content: space-around;align-items: cener;flex-wrap: wrap;margin: 00px 0px;padding-bottom: 10px;position: relative;}
 .bt2{border-color: red;}
 .bt3{border-color:green;}
-.btall div{display: flex;flex-direction: column;justify-content: center;align-items: center;margin: 15px 0px}
+.btall div{display: flex;flex-direction: column;justify-content: center;align-items: center;margin: 15px px;width: 130px}
+.btall div p{text-align: center;}
 .btall img{width: 110px;border: 1px olid;display: block;}
 .clihd{font-size: 23px;text-align: center;margin-bottom: 10px;border: 1px olid;padding: 0px 5px;20px;}
 
@@ -177,15 +179,19 @@ textarea:focus, input:focus,select:focus{
   
 }
 @media screen and (min-width:400px){
-  .btall img{width: 90px;border: 1px olid;display: block;}  
+  .btall img{width: 100px;border: 1px olid;display: block;} 
+    .btall div{width: 150px}
   
 }
 @media screen and (min-width:450px){
   .btall img{width: 100px;border: 1px olid;display: block;}  
+       .btall div{width: 100px}
   
 }
   @media screen and (min-width:550px){
   .btall img{width: 130px;border: 1px olid;display: block;}  
+           .btall div{width: 150px;margin: 10px 20px}
+      
   
 }
   @media screen and (min-width:1000px){
