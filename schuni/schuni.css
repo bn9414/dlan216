@@ -9,7 +9,7 @@ textarea:focus, input:focus,select:focus{
 
 .sch{position: relative;width: 100%;overflow: hidden}
 .sch img{position: relative;margin: auto;width: 150%;vertical-align:middle}
-.sidebg{width: 170px; height:600px;background-color: rgba(235,235,235,0.7);position: absolute;top: 0px;right: 0px;transform: skewX(-10deg);}
+.sidebg{width: 210px; height:600px;background-color: rgba(235,235,235,0.7);position: absolute;top: 0px;right: 0px;transform: skewX(-10deg);}
 
 .hdtxt{position: absolute;top: 0px; right: 0px;text-align: center;top: 25px;font-weight: 700;font-size: 20px;}
 .hdtxt span{font-family: 'Pacifico', cursive;color: #1B998B;}
@@ -33,19 +33,19 @@ textarea:focus, input:focus,select:focus{
 @media screen and (min-width:500px){
     
   .hdtxt{font-size: 24px;}
-    .sidebg{width: 190px;}
+    .sidebg{width: 210px;}
 }
 
 @media screen and (min-width:600px){
       .hdtxt{font-size: 28px;}
-    .sidebg{width: 210px;}
+    .sidebg{width: 240px;}
 
 }
 
 @media screen and (min-width:700px){
     
     .hdtxt{;font-size: 32px;right: 10px;}
-    .sidebg{width: 280px;right: -30px;}
+    .sidebg{width: 320px;right: -30px;}
     .sch img{width: 100%;vertical-align:middle}
 }
 
@@ -53,12 +53,12 @@ textarea:focus, input:focus,select:focus{
 @media screen and (min-width:900px){
         
     .hdtxt{top: 50%;font-size: 45px;right: 10px;transform: translateY(-50%)}
-    .sidebg{width: 350px;right: -40px;}
+    .sidebg{width: 410px;right: -40px;}
 
 }
 @media screen and (min-width:1200px){
     .hdtxt{font-size: 50px;}
-        .sidebg{width: 400px;right: -50px;}
+        .sidebg{width: 450px;right: -50px;}
 
 }
 
