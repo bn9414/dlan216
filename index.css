@@ -99,10 +99,6 @@ textarea:focus, input:focus,select:focus{
        .hdtxt h1{font-size: 36px;text-align: center;}
 .hdtxt p{font-size: 28px;text-align: center;}
     .hdtxt h1 span{font-size: 38px;}
- 
-    
-   
-
 }
 @media screen and (min-width:1200px){
     .hdtxt{font-size: 50px;}
